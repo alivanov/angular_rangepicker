@@ -10,6 +10,7 @@
     "angular-ui-router": "~0.2.11",
     "angular-bootstrap": "0.13.0",
     "moment": "~2.8.3",
-    "underscore": "~1.8.2"
+    "underscore": "~1.8.2",
+    "moment-range": "~2.0.2"
   }
 }

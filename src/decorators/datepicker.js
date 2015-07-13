@@ -32,7 +32,6 @@ angular.module('ui.bootstrap.datepicker')
           }, function(newVal, oldVal) {
             if (scope.datepickerMode == 'day') {
               var miliseconds = newVal;
-
               var oldValDT = new Date(oldVal);
               var newValDT = new Date(newVal);
               var oldValSTR = oldValDT.getMonth() + '-' + oldValDT.getFullYear();
