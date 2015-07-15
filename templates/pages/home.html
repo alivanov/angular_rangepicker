@@ -2,6 +2,6 @@
     <div class="col-md-12">
         <datepicker ng-model="dt" show-weeks="false" class="calendar m-t m-b" custom-class="getDayClass(date, mode)"></datepicker>
         <p>selected datetime: {{dt | date: 'dd MMM yyyy'}}</p>
-        <p>RANGE1: {{range[0] | date: 'dd MMM yyyy'}} - {{range[1] | date: 'dd MMM yyyy'}}</p>
+        <p>RANGE1: {{range[0] | date: 'dd MMM yyyy HH:mm:ss'}} - {{range[1] | date: 'dd MMM yyyy HH:mm:ss'}}</p>
     </div>
 </div>

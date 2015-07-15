@@ -1,3 +1,7 @@
-.full button{
+.full button:not(.btn-info){
     background: red;
+}
+
+.full button.active .text-info{
+    color: white;
 }
